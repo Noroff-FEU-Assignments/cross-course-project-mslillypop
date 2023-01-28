@@ -276,20 +276,15 @@ nav ul {
   text-align: left;
 }
 
-.pictext a {
+.pictext a,
+.pictext a:visited {
   color: #333d29;
-  text-align: left;
   text-decoration: none;
 }
 .pictext a:hover {
   color: #333d29;
   text-align: left;
   text-decoration: underline;
-}
-
-.pictext a:visited {
-  color: #333d29;
-  text-decoration: none;
 }
 
 /* About us styling */
