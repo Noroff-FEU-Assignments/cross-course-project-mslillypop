@@ -196,6 +196,7 @@ nav ul {
   margin: 4px 2px;
   cursor: pointer;
   background-color: #333d29;
+  text-decoration: none;
 }
 .checkout_button a {
   text-decoration: none;
