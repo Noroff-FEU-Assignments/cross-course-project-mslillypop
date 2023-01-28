@@ -156,7 +156,6 @@ nav ul {
 }
 
 .active {
-  /* background-color: #a4ac86; */
   font-weight: bolder;
   color: #fff;
   text-decoration: underline !important;
@@ -277,7 +276,18 @@ nav ul {
   text-align: left;
 }
 
-.pictext :visited {
+.pictext a {
+  color: #333d29;
+  text-align: left;
+  text-decoration: none;
+}
+.pictext a:hover {
+  color: #333d29;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.pictext a:visited {
   color: #333d29;
   text-decoration: none;
 }
