@@ -198,17 +198,13 @@ nav ul {
   background-color: #333d29;
   text-decoration: none;
 }
-.checkout_button a {
-  text-decoration: none;
-  color: #fff;
-}
 
-.checkout_button a:hover {
+.checkout_button:hover {
   text-decoration: underline;
   color: #fff;
 }
 
-.checkout_button a:visited {
+.checkout_button:visited {
   text-decoration: none;
   color: #fff;
 }

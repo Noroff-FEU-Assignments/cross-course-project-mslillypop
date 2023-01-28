@@ -8,8 +8,14 @@ The main thing to note is I could not get the hamburger menu to work and I did n
 
 I have run both the wave and the W3 accessability checker and both had some red flags. Some say the links are empty, which they are not? So I was unable to change those. 
 One of them noted that my header and menu items had contrast issues. I made my header a shade darker and my menu text pure white,  they still fail on wave. But after checking the colours in a contrast checker they do say they have passed on all levels; therefore I have left them as they are with the darker colour.
+I am also getting an info tag on w3 because I have used / by a > when its not needed, but this is done automatically with prettier or one of my other mods, everytime I save my html it auto does the />. I have corrected all the other flags that came up on my first run through. 
+
+Have also found the chrome devtools very useful in my builds to help identify where I have made mistakes or where things might be getting in the way of what I want it to do.
 
 I also decided to have the menu go to the right rather than split, also an accessibility issue. 
+
+I was sadly not able to ask for review from my tutor because I had limit access to my email the past week, but I had valuable feedback from my peers which I have taken in to account whilst doing the finishing touches of my project. 
+
 
 
 
@@ -25,3 +31,8 @@ Images:
 
 Other:
 - fonts are all from fontawesome.com
+- Rounded borders https://www.w3schools.com/css/css3_borders.asp
+- Underline active class https://wordpress.org/support/topic/underline-active-menu/
+
+
+- Lilliann Frekoy
