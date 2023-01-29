@@ -44,4 +44,3 @@ Please find my references and links below :)
 - Figma: https://www.figma.com/file/U5reI9m9hLAXYXooRbr66z/Rainy-Days?node-id=141%3A474&t=OHnarWEIsyruuYA8-1
 - Netlify: https://lill-fre-ca-rainydays.netlify.app/
 
-- Lilliann Frekoy
