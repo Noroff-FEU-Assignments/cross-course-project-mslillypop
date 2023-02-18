@@ -9,6 +9,7 @@ html,
 body {
   background-color: #f5f5f5;
   width: 100%;
+  margin-top: 135px;
 }
 
 img {
@@ -76,10 +77,10 @@ body {
 
 .header {
   width: 100%;
+  max-width: 1440px;
   background: url(assets/Branding/header.png);
   position: fixed;
   top: 0;
-  max-width: 1440px;
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -108,17 +109,14 @@ body {
   font-size: 20px;
 }
 
-.footer a {
+.footer a,
+.footer a:visited {
   color: #fff;
   text-decoration: none;
-}
-.footer a:hover {
-  text-decoration: underline;
-  color: #fff;
 }
 
-.footer a:visited {
-  text-decoration: none;
+.footer a:hover {
+  text-decoration: underline;
   color: #fff;
 }
 
@@ -136,7 +134,8 @@ nav li {
   font-size: 20px;
 }
 
-nav a {
+nav a,
+nav a:visited {
   color: #fff;
   text-decoration: none;
   padding: 20px;
@@ -146,10 +145,6 @@ nav a {
 nav a:hover,
 a:active {
   text-decoration: underline;
-}
-
-nav a:visited {
-  color: #fff;
 }
 
 nav ul {
@@ -218,7 +213,8 @@ nav ul {
 
 /* Looking for something else?*/
 
-.something a {
+.something a,
+.something a:visited {
   text-align: center;
   text-decoration: none;
   color: #333d29;
@@ -228,11 +224,6 @@ nav ul {
 
 .something a:hover {
   text-decoration: underline;
-}
-
-.something a:visited {
-  text-decoration: none;
-  color: #333d29;
 }
 
 /* Bestsellers */
@@ -246,11 +237,7 @@ nav ul {
   text-align: left;
 }
 
-.bestsellers a {
-  color: #333d29;
-  text-decoration: none;
-}
-
+.bestsellers a,
 .bestsellers a:visited {
   color: #333d29;
   text-decoration: none;
@@ -368,10 +355,9 @@ nav ul {
   padding-right: 100px;
 }
 
-.product_page_text a {
-  font-weight: bold;
-}
+.product_page_text a,
 .product_page_text a:visited {
+  font-weight: bold;
   text-decoration: none;
   color: #333d29;
 }
