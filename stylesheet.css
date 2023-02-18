@@ -19,26 +19,25 @@ img {
 
 /* Headings */
 
-h1 {
+h1,
+h2,
+h3 {
   color: #333d29;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
 h2 {
   font-size: 30px;
-  color: #333d29;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
 }
 
 h3 {
   font-size: 20px;
-  color: #333d29;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -78,6 +77,8 @@ body {
 .header {
   width: 100%;
   background: url(assets/Branding/header.png);
+  position: fixed;
+  top: 0;
   color: #fff;
   display: flex;
   flex-direction: row;
