@@ -5,6 +5,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 20px;
+  cursor: pointer;
 }
 
 .product-item {
@@ -15,6 +16,10 @@
   padding: 20px;
   background-color: #fff;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-item:hover {
+  background-color: #e4e3e3;
 }
 
 .product-image {
