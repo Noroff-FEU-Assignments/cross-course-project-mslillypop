@@ -5,10 +5,12 @@
     <meta name="description" content="product detail page" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="stylesheet.css" rel="stylesheet" />
+    <link href="css/cssJS.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/76dd6b186e.js"
       crossorigin="anonymous"
     ></script>
+    <script type="module" defer src="/js/assets/productpage.js"></script>
   </head>
   <body>
     <header>
@@ -40,21 +42,10 @@
       </div>
     </header>
     <main>
-      <br />
-      <h1>Jack Wolfskin</h1>
-      <img
-        src="assets/Products/womens1.png"
-        alt="white winter coat with fur trimmed hood"
-      />
-      <br />
-      <br />
-      <div class="product_page_text">
-        <br />
-        <br />
-        This Jack Wolfskin Winter Jacket is he perfect fit for the coldest days
-        where you want to stay warm and toasty. <br />
-        It is also water resistant for the snowy days. <br />
-        £ 125
+      <div class="product-page">
+        <div class="loader"></div>
+      </div>
+      <div>
         <a href="checkout.html"
           >Add to cart<i
             class="fa-solid fa-cart-shopping"

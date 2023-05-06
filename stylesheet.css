@@ -157,6 +157,8 @@ nav ul {
   text-decoration: underline !important;
 }
 
+
+
 /* Product */
 
 .product {
@@ -252,13 +254,16 @@ nav ul {
 
 .product_list1,
 .product_list2 {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  align-items: center;
+  max-width: 100px;
+  max-height: 200px;
 }
 
 .pictext {
   color: #333d29;
-  text-align: left;
+  text-align: right;
+  max-width: 400px;
 }
 
 .pictext a,
