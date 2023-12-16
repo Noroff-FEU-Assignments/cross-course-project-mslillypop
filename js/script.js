@@ -1,4 +1,4 @@
-const url = "https://api.noroff.dev/api/v1/rainy-days/";
+const url = "https://cms.lillfre.co.uk/wp-json/wc/store/products";
 
 import { fetchProduct } from "./assets/products.js";
 

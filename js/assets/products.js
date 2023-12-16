@@ -1,4 +1,5 @@
-const baseURL = "https://api.noroff.dev/api/v1/rainy-days/"
+const baseURL = "https://cms.lillfre.co.uk/wp-json/wc/store/products/";
+
 
 const productGrid = document.querySelector('.product-grid');
 
@@ -16,22 +17,21 @@ export async function fetchProduct() {
   .then(response => response.json())
   .then(data => {
     data.forEach(product => {
-      
       const productItem = document.createElement('div');
       productItem.classList.add('product-item');
 
       const productImage = document.createElement('img');
       productImage.classList.add('product-image');
-      productImage.src = product.image;
-      productImage.alt = product.title;
+      productImage.src = product.images[0].src;
+      productImage.alt = product.name;
 
       const productTitle = document.createElement('h2');
       productTitle.classList.add('product-title');
-      productTitle.textContent = product.title;
+      productTitle.textContent = product.name;
 
       const productPrice = document.createElement('p');
       productPrice.classList.add('product-price');
-      productPrice.textContent = `£${product.price.toFixed(2)}`;
+      productPrice.textContent = `£${parseFloat(product.prices.price).toFixed(2)}`;
 
       productImage.dataset.productID = product.id;
 
@@ -41,22 +41,18 @@ export async function fetchProduct() {
       productGrid.append(productItem);
 
       productImage.addEventListener('click', (e) => {
-        const currentTarget = e.target;     
+        const currentTarget = e.target;
         const productID = currentTarget.dataset.productID;
-        
-        if (productItem) {
 
+        if (productID) {
           window.location.href = `product.html?id=${productID}`;
-          }
-      
-        
-      
+        }
       });
     });
-  }) .catch(error => productGrid.innerHTML = `<p>Oops! Something went wrong</p>`); {
-    
-  };
-  
-  
-  
+  })
+  .catch(error => {
+    productGrid.innerHTML = `<p>Oops! Something went wrong: ${error.message}</p>`;
+    console.error(error);
+  });
 }
+
