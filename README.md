@@ -18,9 +18,7 @@ The site had to contain these specific pages in the site architecture:
 - About
 - Contact
 
-## Built With
-
-You can list a the tech stack that you've used over here
+## Built With:
 
 - HTML
 - CSS
